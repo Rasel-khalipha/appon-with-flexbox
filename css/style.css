@@ -146,7 +146,7 @@ img {
 }
 .banner-bg .banner .header-area .menu-list ul {
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 	align-items: end;
 }
 .banner-bg .banner .header-area .menu-list ul li {
@@ -282,7 +282,7 @@ img {
 .banner-content .content .content-area .btn-group {
 	padding-top: 60px;
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 	align-items: end;
 }
 .banner-content .content .content-area .btn-group a {
