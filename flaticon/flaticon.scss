@@ -1,0 +1,185 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?a7e3cb3c793bbae5e2616cf15dff4e7b") format("truetype"),
+url("./flaticon.woff?a7e3cb3c793bbae5e2616cf15dff4e7b") format("woff"),
+url("./flaticon.woff2?a7e3cb3c793bbae5e2616cf15dff4e7b") format("woff2"),
+url("./flaticon.eot?a7e3cb3c793bbae5e2616cf15dff4e7b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a7e3cb3c793bbae5e2616cf15dff4e7b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "twitter-logo": "\f101",
+    "instagram-social-network-logo-of-photo-camera": "\f102",
+    "youtube-symbol": "\f103",
+    "pinterest": "\f104",
+    "evernote": "\f105",
+    "technorati": "\f106",
+    "deviantart": "\f107",
+    "rss-symbol": "\f108",
+    "dropbox-logo": "\f109",
+    "dribbble-logo": "\f10a",
+    "google-plus-symbol": "\f10b",
+    "minus": "\f10c",
+    "left-arrow": "\f10d",
+    "left-arrow-1": "\f10e",
+    "arrow-point-to-right": "\f10f",
+    "arrows": "\f110",
+    "avatar": "\f111",
+    "mark-as-favorite-star": "\f112",
+    "circular-shape-silhouette": "\f113",
+    "circle": "\f114",
+    "square": "\f115",
+    "black-check-box": "\f116",
+    "cinema": "\f117",
+    "sound": "\f118",
+    "comment-white-oval-bubble": "\f119",
+    "picture": "\f11a",
+    "heart": "\f11b",
+    "smiling-emoticon-square-face": "\f11c",
+    "calendar": "\f11d",
+    "growth": "\f11e",
+    "envelope": "\f11f",
+    "tag": "\f120",
+    "cloud": "\f121",
+    "close": "\f122",
+    "https": "\f123",
+    "edit": "\f124",
+    "comment": "\f125",
+    "chat": "\f126",
+    "android-logo": "\f127",
+    "apple": "\f128",
+);
+
+.flaticon-twitter-logo:before {
+    content: map-get($flaticon-map, "twitter-logo");
+}
+.flaticon-instagram-social-network-logo-of-photo-camera:before {
+    content: map-get($flaticon-map, "instagram-social-network-logo-of-photo-camera");
+}
+.flaticon-youtube-symbol:before {
+    content: map-get($flaticon-map, "youtube-symbol");
+}
+.flaticon-pinterest:before {
+    content: map-get($flaticon-map, "pinterest");
+}
+.flaticon-evernote:before {
+    content: map-get($flaticon-map, "evernote");
+}
+.flaticon-technorati:before {
+    content: map-get($flaticon-map, "technorati");
+}
+.flaticon-deviantart:before {
+    content: map-get($flaticon-map, "deviantart");
+}
+.flaticon-rss-symbol:before {
+    content: map-get($flaticon-map, "rss-symbol");
+}
+.flaticon-dropbox-logo:before {
+    content: map-get($flaticon-map, "dropbox-logo");
+}
+.flaticon-dribbble-logo:before {
+    content: map-get($flaticon-map, "dribbble-logo");
+}
+.flaticon-google-plus-symbol:before {
+    content: map-get($flaticon-map, "google-plus-symbol");
+}
+.flaticon-minus:before {
+    content: map-get($flaticon-map, "minus");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-left-arrow-1:before {
+    content: map-get($flaticon-map, "left-arrow-1");
+}
+.flaticon-arrow-point-to-right:before {
+    content: map-get($flaticon-map, "arrow-point-to-right");
+}
+.flaticon-arrows:before {
+    content: map-get($flaticon-map, "arrows");
+}
+.flaticon-avatar:before {
+    content: map-get($flaticon-map, "avatar");
+}
+.flaticon-mark-as-favorite-star:before {
+    content: map-get($flaticon-map, "mark-as-favorite-star");
+}
+.flaticon-circular-shape-silhouette:before {
+    content: map-get($flaticon-map, "circular-shape-silhouette");
+}
+.flaticon-circle:before {
+    content: map-get($flaticon-map, "circle");
+}
+.flaticon-square:before {
+    content: map-get($flaticon-map, "square");
+}
+.flaticon-black-check-box:before {
+    content: map-get($flaticon-map, "black-check-box");
+}
+.flaticon-cinema:before {
+    content: map-get($flaticon-map, "cinema");
+}
+.flaticon-sound:before {
+    content: map-get($flaticon-map, "sound");
+}
+.flaticon-comment-white-oval-bubble:before {
+    content: map-get($flaticon-map, "comment-white-oval-bubble");
+}
+.flaticon-picture:before {
+    content: map-get($flaticon-map, "picture");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-smiling-emoticon-square-face:before {
+    content: map-get($flaticon-map, "smiling-emoticon-square-face");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-growth:before {
+    content: map-get($flaticon-map, "growth");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-tag:before {
+    content: map-get($flaticon-map, "tag");
+}
+.flaticon-cloud:before {
+    content: map-get($flaticon-map, "cloud");
+}
+.flaticon-close:before {
+    content: map-get($flaticon-map, "close");
+}
+.flaticon-https:before {
+    content: map-get($flaticon-map, "https");
+}
+.flaticon-edit:before {
+    content: map-get($flaticon-map, "edit");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-android-logo:before {
+    content: map-get($flaticon-map, "android-logo");
+}
+.flaticon-apple:before {
+    content: map-get($flaticon-map, "apple");
+}

@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?a7e3cb3c793bbae5e2616cf15dff4e7b") format("truetype"),
+url("./flaticon.woff?a7e3cb3c793bbae5e2616cf15dff4e7b") format("woff"),
+url("./flaticon.woff2?a7e3cb3c793bbae5e2616cf15dff4e7b") format("woff2"),
+url("./flaticon.eot?a7e3cb3c793bbae5e2616cf15dff4e7b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?a7e3cb3c793bbae5e2616cf15dff4e7b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-twitter-logo:before {
+    content: "\f101";
+}
+.flaticon-instagram-social-network-logo-of-photo-camera:before {
+    content: "\f102";
+}
+.flaticon-youtube-symbol:before {
+    content: "\f103";
+}
+.flaticon-pinterest:before {
+    content: "\f104";
+}
+.flaticon-evernote:before {
+    content: "\f105";
+}
+.flaticon-technorati:before {
+    content: "\f106";
+}
+.flaticon-deviantart:before {
+    content: "\f107";
+}
+.flaticon-rss-symbol:before {
+    content: "\f108";
+}
+.flaticon-dropbox-logo:before {
+    content: "\f109";
+}
+.flaticon-dribbble-logo:before {
+    content: "\f10a";
+}
+.flaticon-google-plus-symbol:before {
+    content: "\f10b";
+}
+.flaticon-minus:before {
+    content: "\f10c";
+}
+.flaticon-left-arrow:before {
+    content: "\f10d";
+}
+.flaticon-left-arrow-1:before {
+    content: "\f10e";
+}
+.flaticon-arrow-point-to-right:before {
+    content: "\f10f";
+}
+.flaticon-arrows:before {
+    content: "\f110";
+}
+.flaticon-avatar:before {
+    content: "\f111";
+}
+.flaticon-mark-as-favorite-star:before {
+    content: "\f112";
+}
+.flaticon-circular-shape-silhouette:before {
+    content: "\f113";
+}
+.flaticon-circle:before {
+    content: "\f114";
+}
+.flaticon-square:before {
+    content: "\f115";
+}
+.flaticon-black-check-box:before {
+    content: "\f116";
+}
+.flaticon-cinema:before {
+    content: "\f117";
+}
+.flaticon-sound:before {
+    content: "\f118";
+}
+.flaticon-comment-white-oval-bubble:before {
+    content: "\f119";
+}
+.flaticon-picture:before {
+    content: "\f11a";
+}
+.flaticon-heart:before {
+    content: "\f11b";
+}
+.flaticon-smiling-emoticon-square-face:before {
+    content: "\f11c";
+}
+.flaticon-calendar:before {
+    content: "\f11d";
+}
+.flaticon-growth:before {
+    content: "\f11e";
+}
+.flaticon-envelope:before {
+    content: "\f11f";
+}
+.flaticon-tag:before {
+    content: "\f120";
+}
+.flaticon-cloud:before {
+    content: "\f121";
+}
+.flaticon-close:before {
+    content: "\f122";
+}
+.flaticon-https:before {
+    content: "\f123";
+}
+.flaticon-edit:before {
+    content: "\f124";
+}
+.flaticon-comment:before {
+    content: "\f125";
+}
+.flaticon-chat:before {
+    content: "\f126";
+}
+.flaticon-android-logo:before {
+    content: "\f127";
+}
+.flaticon-apple:before {
+    content: "\f128";
+}
